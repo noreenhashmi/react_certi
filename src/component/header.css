@@ -1,0 +1,68 @@
+
+header{
+
+        background-color: white;
+        width: 100%;
+        box-shadow: 0px 0px 15px  red;;
+        height: 10vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+  }
+    
+#logo a{
+    text-decoration:none; 
+    color:black;
+  }
+  #logo a:hover{
+    color:black;
+  }
+  a:hover,#links a:hover{
+      color: #009688;}
+      #links  {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 25%;
+    }
+    
+    #links a{
+      text-decoration: none;
+        font-size: 14px;
+        color: rgb(27, 25, 25);
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 2px;
+        transition: all 0.2s;
+    
+    }
+    
+    #icons{
+        display: flex;
+    }
+    #logo{
+        font-family: "Montserrat", sans-serif;
+        font-size: 33px;
+        letter-spacing: 1px;
+    }
+    #logo span{
+        color: #009688;
+        letter-spacing: 1px;
+        font-weight: 1000;
+    }
+    #icons i{
+        color: black;
+        padding-top: 8px;
+        font-size: 22px;
+        cursor: pointer;
+        margin-right: 50px;
+    }
+    #cart-count{
+        color: #fff;
+        background-color: #009688;
+        border-radius: 50%;
+          font-size: 15px;
+        padding: 8px 5px;
+        position: absolute;
+        top: 15px;
+    }

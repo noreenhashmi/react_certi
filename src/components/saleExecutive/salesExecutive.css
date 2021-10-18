@@ -1,0 +1,63 @@
+.main-container{
+    padding: 2% 4%;
+    background-color: #041b37;
+}
+#order-form{
+    max-width: 1200px;
+    margin: 50px auto;
+}
+.input-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0;
+}
+#order-form label{
+    font-weight: 600;
+    font-size: 18px;
+}
+#order-form input{
+    margin-left: 20px;
+    outline: none;
+    border: none;
+    background-color:#041b37;
+    color: black;
+    border-bottom: 1px solid black;
+    font-size: 14px;
+}
+.submit-btn-wrapper{
+    text-align: center;
+    margin: 50px 0;
+}
+.submit-orders{
+    width: 100px;
+    padding: 2px 5px;
+    border: none;
+    outline: none;
+    background-color: rgb(105, 105, 212);
+    color: white;
+    border-radius: 4px;
+}
+.orders{
+    max-width: 1200px;
+    min-height: 40vh;
+    margin: 30px auto;
+    margin-top: 50px;
+}
+.order-row{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+.order-row p{
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+    width: 20%;
+}
+i{
+    margin-right: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}

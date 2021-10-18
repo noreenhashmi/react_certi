@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+  background-color: lavenderblush;
+  color: #eee;
+  padding: 2% 8%;
+  background-image: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+.heading{
+  color:#c6b229;
+  font-weight: 400;
+  margin: 20px 0;
+}
+.login-form{
+  margin: 50px 0;
+}
+.login-form label{
+  color: #212121;
+  margin: 0 auto;
+  width: 500px;
+  display: flex;
+  justify-content: flex-end;
+}
+span{
+  color:#c6b229;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+.login-form input{
+  margin: 0 120px 20px 20px;
+  outline: none;
+  border: 1px solid rgb(228, 93, 3);
+  font-size: 14px;
+  padding: 4px 10px;
+
+  color:#0f0373;
+
+}
+.login-form button{
+  width: 150px;
+  height: 45px;
+  outline: none;
+  border: none;
+  background-color: #3e1404;
+  color: #fff;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+footer{
+  background-color: #212121 !important;
+}
+.main-container{
+  background-color:#97809f;
+  padding: 1px;
+}
+
+.app-sections{
+  max-width: 1200px;
+  margin: 50px auto;
+  background-color: #bbb;
+}
+.sections-topbar{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1% 4%;
+  background-color: black;
+}
+.links{
+  text-decoration: none;
+  color:#938856;
+  margin-right: 20px;
+  font-weight: 300;
+}
+.links:hover{
+  color: #fff;
+}
+.section{
+  background:white;
+}
